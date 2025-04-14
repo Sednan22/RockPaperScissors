@@ -1,50 +1,37 @@
-/* body {
-    background-color: gainsboro;
+body {
+    background-color: white;
 }
 
-.result-game {
-    padding: 25px;
-    
-};
 
 .game-name {
+    text-align: center;
     font-size: 50px;
-    margin-left: 300px;
-    margin-top: 50px;
 }
 
-.btn-primary-paper {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-size: 16px;
-    padding: 50px 40px;
-    border: none;
-    cursor: pointer;
-    margin-left: 200px;
-    margin-top: 350px;
-    border-radius: 100%;
+
+.wrapper-images {
+    display: flex;
+    justify-content: center;
 }
 
-.btn-primary-rock {
-    background-color:gray;
-    color: black;
-    font-size: 20px;
-    padding: 50px 40px;
-    border: none;
-    cursor: pointer;
-    margin-left: 200px;
-    margin-top: 350px;
-    border-radius: 100%;
+.btn-primary-paper img,
+.btn-primary-rock img,
+.btn-primary-scissors img
+ {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
 
-.btn-primary-scissors {
-    background-color: red;
-    color: black;
-    font-size: 20px;
-    padding: 50px 30px;
-    border: none;
-    cursor: pointer;
-    margin-left: 200px;
-    margin-top: 350px;
-    border-radius: 100%;
-} */
+
+.result-game {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.wins_tie_lose {
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+}
