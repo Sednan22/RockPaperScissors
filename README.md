@@ -1,4 +1,4 @@
-Rock Paper Scissors with HTML, CSS and JavScript
+Little Project
 
+Rock Paper Scissors game with HTML, CSS and JavScript
 
-## Add wins/ties/lose counter ##
